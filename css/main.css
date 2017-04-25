@@ -1,0 +1,72 @@
+body {
+    background: url('../dark_wood.png');
+    color:white;
+    font-family: 'Oswald', sans-serif;
+}
+ h1 {
+    /*font-family: 'Russo One', sans-serif;*/
+    font-family: 'Teko', sans-serif;
+    font-size: 3.8em;
+ }
+
+
+ h2 {
+     font-size: 1.8em;
+ }
+
+.logo {
+    width:25%;
+    height: 20%;
+    margin: 5%;
+}
+
+.brand {
+    margin-top: 5%;
+    text-align: center;
+}
+.social {
+    margin-top: 5%;
+    width: 50px;
+    height: 50px;
+}
+
+.gallery {
+    width: 70%;
+    margin:0 auto;
+    margin-top: 5%;
+    clear: both;
+}
+
+.center {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.insta {
+    max-width: 300px;
+    float: left;
+}
+
+/* Social Icons src: https://codepen.io/JonDCarey/pen/wAjrx*/
+#social_side_links {
+	position: fixed;
+  top: 70px;
+  left: 0;
+  padding: 0;
+  list-style: none;
+  z-index: 99;
+}
+
+#social_side_links li a {display: block;}
+
+#social_side_links li a img {
+	display: block;
+	max-width:50px;
+  padding: 10px;
+  -webkit-transition:  background .2s ease-in-out;
+  -moz-transition:  background .2s ease-in-out;
+  -o-transition:  background .2s ease-in-out;
+  transition:  background .2s ease-in-out;
+}
+
+#social_side_links li a:hover img {background: rgba(0, 0, 0, .2);}
