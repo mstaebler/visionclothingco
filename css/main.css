@@ -1,5 +1,5 @@
 body {
-    background: url('../dark_wood.png');
+    background: url('../img/dark_wood.png');
     color:white;
     font-family: 'Oswald', sans-serif;
 }
@@ -70,3 +70,42 @@ body {
 }
 
 #social_side_links li a:hover img {background: rgba(0, 0, 0, .2);}
+
+@media only screen and (min-device-width : 330px) and (max-device-width : 480px) {
+    h1 {
+        font-size: 2.0em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    body {
+        font-size: 1em;
+    }
+    .gallery {
+        width:85%;
+    }
+}
+
+@media only screen and (min-device-width : 700px) and (max-device-width : 800px) {
+    .gallery {
+        width:85%;
+    }
+}
+
+@media only screen and (max-device-width: 329px){
+    h1 {
+        font-size: 1.3em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+    body {
+        font-size: .7em;
+    }
+    .gallery {
+        width:85%;
+    }
+    .insta {
+        max-width: 250px;
+    }
+}
