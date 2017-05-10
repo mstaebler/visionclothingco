@@ -33,9 +33,10 @@ body {
 
 .gallery {
     width: 70%;
-    margin:0 auto;
+    margin: 0 auto;
     margin-top: 5%;
     clear: both;
+    text-align: center;
 }
 
 .center {
@@ -45,7 +46,19 @@ body {
 
 .insta {
     max-width: 300px;
-    float: left;
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    display: inline-block;
+    margin: 0 auto;
 }
 
 /* Social Icons src: https://codepen.io/JonDCarey/pen/wAjrx*/
