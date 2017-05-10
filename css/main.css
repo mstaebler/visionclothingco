@@ -1,3 +1,84 @@
+@media only screen and (min-device-width : 330px) and (max-device-width : 480px) {
+    h1 {
+        font-size: 2.0em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    body {
+        font-size: 1em;
+    }
+    #gallery {
+        width:85%;
+    }
+    #gallery .right {
+        float: right;
+        width:300px;
+    }
+    #gallery .left {
+        float: right;
+        width:300px;
+    }
+    #gallery .center {
+        float: right;
+        width:300px;
+    }
+    #gallery .insta {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (min-device-width : 700px) and (max-device-width : 800px) {
+    #gallery {
+        width:85%;
+    }
+    #gallery .right {
+        float: left;
+        width:300px;
+    }
+    #gallery .left {
+        float: left;
+        width:300px;
+    }
+    #gallery .center {
+        float: left;
+        width:300px;
+    }
+    #gallery .insta {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-device-width: 329px){
+    h1 {
+        font-size: 1.3em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+    body {
+        font-size: .7em;
+    }
+    #gallery {
+        width:85%;
+    }
+    #gallery .insta {
+        max-width: 250px;
+    }
+    #gallery .right {
+        float: left;
+        width: 250px;
+    }
+    #gallery .left {
+        float: left;
+        width: 250px;
+    }
+    #gallery .center {
+        float: left;
+        width: 250px;
+    }
+}
+
 body {
     background: url('../img/dark_wood.png');
     color:white;
@@ -37,11 +118,6 @@ body {
     margin-top: 5%;
     clear: both;
     text-align: center;
-}
-
-.center {
-    width: 50%;
-    margin: 0 auto;
 }
 
 .insta {
@@ -85,41 +161,3 @@ body {
 
 #social_side_links li a:hover img {background: rgba(0, 0, 0, .2);}
 
-@media only screen and (min-device-width : 330px) and (max-device-width : 480px) {
-    h1 {
-        font-size: 2.0em;
-    }
-    h2 {
-        font-size: 1.3em;
-    }
-    body {
-        font-size: 1em;
-    }
-    .gallery {
-        width:85%;
-    }
-}
-
-@media only screen and (min-device-width : 700px) and (max-device-width : 800px) {
-    .gallery {
-        width:85%;
-    }
-}
-
-@media only screen and (max-device-width: 329px){
-    h1 {
-        font-size: 1.3em;
-    }
-    h2 {
-        font-size: 1em;
-    }
-    body {
-        font-size: .7em;
-    }
-    .gallery {
-        width:85%;
-    }
-    .insta {
-        max-width: 250px;
-    }
-}
